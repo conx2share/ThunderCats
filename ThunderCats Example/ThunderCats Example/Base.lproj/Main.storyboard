@@ -76,7 +76,7 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExampleCell" rowHeight="106" id="UTJ-cu-eoo" customClass="ExampleCell" customModule="ThunderCats_Example" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ExampleCell" rowHeight="106" id="UTJ-cu-eoo" customClass="ExampleCell" customModule="ThunderCats_Example" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="247" width="600" height="106"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UTJ-cu-eoo" id="Aru-gT-gN6">

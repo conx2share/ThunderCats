@@ -14,9 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        application.setStatusBarStyle(.Default, animated: true)
-        sleep(1) // they gotta see that launch screen
         return true
     }
 }
