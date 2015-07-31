@@ -1,0 +1,22 @@
+PODS:
+  - NYXImagesKit (2.3)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - ThunderCats (1.0.13):
+    - NYXImagesKit (~> 2.3)
+    - SDWebImage (~> 3.7.1)
+
+DEPENDENCIES:
+  - ThunderCats (from `..`)
+
+EXTERNAL SOURCES:
+  ThunderCats:
+    :path: ..
+
+SPEC CHECKSUMS:
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  ThunderCats: da255740c7ae2db0c0daa88212ef74a5b22afd85
+
+COCOAPODS: 0.38.2
