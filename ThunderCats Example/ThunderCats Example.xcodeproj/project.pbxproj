@@ -18,6 +18,7 @@
 		27D96AE41B6BF8BB00E78CFC /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AE31B6BF8BB00E78CFC /* ExampleCell.swift */; };
 		27D96AE61B6BF91400E78CFC /* ExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AE51B6BF91400E78CFC /* ExampleVC.swift */; };
 		27D96AE81B6BFA4600E78CFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AE71B6BFA4600E78CFC /* Constants.swift */; };
+		27D96AEE1B6C053800E78CFC /* UIColorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AED1B6C053800E78CFC /* UIColorDataSource.swift */; };
 		91D9FD0FAD8B9F7716B0BD2E /* Pods_ThunderCats_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4EE6D4DC446177E3E5431D /* Pods_ThunderCats_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		27D96AE31B6BF8BB00E78CFC /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
 		27D96AE51B6BF91400E78CFC /* ExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleVC.swift; sourceTree = "<group>"; };
 		27D96AE71B6BFA4600E78CFC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		27D96AED1B6C053800E78CFC /* UIColorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorDataSource.swift; sourceTree = "<group>"; };
 		4190C879893F99D90E57AB43 /* Pods-ThunderCats Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThunderCats Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThunderCats Example/Pods-ThunderCats Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5229340820042522736EEE8F /* Pods-ThunderCats Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThunderCats Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThunderCats Example/Pods-ThunderCats Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A4EE6D4DC446177E3E5431D /* Pods_ThunderCats_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThunderCats_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				27D96ADF1B6BF85000E78CFC /* StringsDataSource.swift */,
+				27D96AED1B6C053800E78CFC /* UIColorDataSource.swift */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			files = (
 				27D96AE41B6BF8BB00E78CFC /* ExampleCell.swift in Sources */,
 				27D96AE21B6BF87A00E78CFC /* Example.swift in Sources */,
+				27D96AEE1B6C053800E78CFC /* UIColorDataSource.swift in Sources */,
 				27D96AC11B6BF3BD00E78CFC /* MainVC.swift in Sources */,
 				27D96AE61B6BF91400E78CFC /* ExampleVC.swift in Sources */,
 				27D96AE81B6BFA4600E78CFC /* Constants.swift in Sources */,

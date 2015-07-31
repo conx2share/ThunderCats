@@ -1,5 +1,5 @@
 //
-//  StringsDataSource.swift
+//  UIColorDataSource.swift
 //  ThunderCats Example
 //
 //  Created by Kyle Bashour on 7/31/15.
@@ -7,17 +7,15 @@
 //
 
 import UIKit
-import ThunderCats
 
-class StringsDataSource: NSObject, UITableViewDataSource {
-    
+class UIColorDataSource: NSObject, UITableViewDataSource {
+
     let classMethods = [
-        Example(description: "Generate a UUID: \(String.tc_UUID()). Returns a string.", code: "String.tc_UUID()"),
+        Example(description: "Create a UIColor from a hex string. Strings may or may not have a # prefix. Returns a UIColor.", code: "let metovaGreen = UIColor.tc_colorWithHexString(\"#2FC587\")"),
     ]
     
     let instanceMethods = [
-        Example(description: "Ask a string whether or not it's a valid email address. Returns a bool.", code: "let email = \"test@metova.com\"\n\n// returns true\nemail.tc_isValidEmailAddressFormat()"),
-        Example(description: "Determine whether a substring is present within the string.", code: "let string = \"This is a string\"\n\n// returns true\nstring.tc_containsString(\"is a\")")
+        Example(description: "Determine whether two UIColor instances are the same color.", code: "let firstColor = UIColor.tc_colorWithHexString(\"FFFFFF\")\nlet secondColor = UIColor.tc_colorWithHexString(\"FFFFFA\")\n\n// returns false\nfirstColor.tc_isEqualToColor(secondColor)"),
     ]
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

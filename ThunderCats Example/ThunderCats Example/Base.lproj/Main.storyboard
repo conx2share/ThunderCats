@@ -67,9 +67,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Lat-v2-cTc">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lat-v2-cTc">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="hqW-O2-Dte">
                                     <rect key="frame" x="0.0" y="128" width="600" height="0.0"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -110,10 +110,10 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="a0F-tP-jcU" secondAttribute="trailing" id="EgX-ND-S4C"/>
                                                 <constraint firstItem="j56-hQ-YQS" firstAttribute="leading" secondItem="Aru-gT-gN6" secondAttribute="leadingMargin" id="Ehr-hC-d3D"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="cSN-Jr-gCx" secondAttribute="trailing" constant="497" id="FYq-8x-PDk"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="cSN-Jr-gCx" secondAttribute="trailing" id="FYq-8x-PDk"/>
                                                 <constraint firstItem="cSN-Jr-gCx" firstAttribute="top" secondItem="NRd-zL-M6g" secondAttribute="bottom" constant="8" id="MmH-iK-eKL"/>
                                                 <constraint firstItem="j56-hQ-YQS" firstAttribute="top" secondItem="Aru-gT-gN6" secondAttribute="topMargin" id="Uou-Ls-tJy"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="j56-hQ-YQS" secondAttribute="trailing" constant="508" id="YqK-dd-vWt"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="j56-hQ-YQS" secondAttribute="trailing" id="YqK-dd-vWt"/>
                                                 <constraint firstItem="cSN-Jr-gCx" firstAttribute="leading" secondItem="Aru-gT-gN6" secondAttribute="leadingMargin" id="ZDI-LG-sck"/>
                                                 <constraint firstItem="NRd-zL-M6g" firstAttribute="leading" secondItem="Aru-gT-gN6" secondAttribute="leadingMargin" id="a4l-dN-Gl0"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="NRd-zL-M6g" secondAttribute="trailing" id="eMO-yY-r00"/>
