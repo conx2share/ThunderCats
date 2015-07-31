@@ -12,7 +12,8 @@ import ThunderCats
 class StringsDataSource: NSObject, UITableViewDataSource {
     
     let examples = [
-        Example(description: "Generate a UUID: \(String.tc_UUID())", code: "String.tc_UUID()")
+        Example(description: "Generate a UUID: \(String.tc_UUID()). Returns a string.", code: "String.tc_UUID()"),
+        Example(description: "Ask a string whether or not it's a valid email address. Returns a bool.", code: "let email = \"test@metova.com\"\n\n// returns true\nemail.tc_isValidEmailAddressFormat()")
     ]
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

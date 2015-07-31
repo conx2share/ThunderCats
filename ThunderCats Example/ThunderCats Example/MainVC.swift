@@ -18,6 +18,11 @@ class MainVC: UITableViewController {
         StringsDataSource()
     ]
     
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        assert(examples.count == dataSources.count, "There should be a data source for each example")
+        return examples.count
+    }
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(Constants.mainCellID) as! UITableViewCell
         cell.textLabel?.text = examples[indexPath.row]

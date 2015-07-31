@@ -95,15 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				27D96ABE1B6BF3BD00E78CFC /* AppDelegate.swift */,
-				27D96AE71B6BFA4600E78CFC /* Constants.swift */,
-				27D96AC01B6BF3BD00E78CFC /* MainVC.swift */,
-				27D96AE51B6BF91400E78CFC /* ExampleVC.swift */,
-				27D96AE11B6BF87A00E78CFC /* Example.swift */,
-				27D96AE31B6BF8BB00E78CFC /* ExampleCell.swift */,
-				27D96ADF1B6BF85000E78CFC /* StringsDataSource.swift */,
-				27D96AC21B6BF3BD00E78CFC /* Main.storyboard */,
-				27D96AC51B6BF3BD00E78CFC /* Images.xcassets */,
-				27D96AC71B6BF3BD00E78CFC /* LaunchScreen.xib */,
+				27D96AE91B6BFC6900E78CFC /* View Controllers */,
+				27D96AEB1B6BFCA400E78CFC /* Examples */,
+				27D96AEA1B6BFC8F00E78CFC /* Utilities */,
+				27D96AEC1B6BFCB600E78CFC /* Assets */,
 				27D96ABC1B6BF3BD00E78CFC /* Supporting Files */,
 			);
 			path = "ThunderCats Example";
@@ -132,6 +127,43 @@
 				27D96AD31B6BF3BD00E78CFC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27D96AE91B6BFC6900E78CFC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27D96AC01B6BF3BD00E78CFC /* MainVC.swift */,
+				27D96AE51B6BF91400E78CFC /* ExampleVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		27D96AEA1B6BFC8F00E78CFC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				27D96AE71B6BFA4600E78CFC /* Constants.swift */,
+				27D96AE11B6BF87A00E78CFC /* Example.swift */,
+				27D96AE31B6BF8BB00E78CFC /* ExampleCell.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		27D96AEB1B6BFCA400E78CFC /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				27D96ADF1B6BF85000E78CFC /* StringsDataSource.swift */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		27D96AEC1B6BFCB600E78CFC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				27D96AC21B6BF3BD00E78CFC /* Main.storyboard */,
+				27D96AC51B6BF3BD00E78CFC /* Images.xcassets */,
+				27D96AC71B6BF3BD00E78CFC /* LaunchScreen.xib */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		979DB2DA7D75F3E5541B6FA0 /* Frameworks */ = {
