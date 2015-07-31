@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		27D96ABF1B6BF3BD00E78CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96ABE1B6BF3BD00E78CFC /* AppDelegate.swift */; };
-		27D96AC11B6BF3BD00E78CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AC01B6BF3BD00E78CFC /* ViewController.swift */; };
+		27D96AC11B6BF3BD00E78CFC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AC01B6BF3BD00E78CFC /* MainVC.swift */; };
 		27D96AC41B6BF3BD00E78CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D96AC21B6BF3BD00E78CFC /* Main.storyboard */; };
 		27D96AC61B6BF3BD00E78CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D96AC51B6BF3BD00E78CFC /* Images.xcassets */; };
 		27D96AC91B6BF3BD00E78CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D96AC71B6BF3BD00E78CFC /* LaunchScreen.xib */; };
 		27D96AD51B6BF3BD00E78CFC /* ThunderCats_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AD41B6BF3BD00E78CFC /* ThunderCats_ExampleTests.swift */; };
-		61966011DCA9CCDDAFEEA782 /* libPods-ThunderCats Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E125ED2D85B3F2255EF5C710 /* libPods-ThunderCats Example.a */; };
+		27D96AE01B6BF85000E78CFC /* StringsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96ADF1B6BF85000E78CFC /* StringsDataSource.swift */; };
+		27D96AE21B6BF87A00E78CFC /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AE11B6BF87A00E78CFC /* Example.swift */; };
+		27D96AE41B6BF8BB00E78CFC /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AE31B6BF8BB00E78CFC /* ExampleCell.swift */; };
+		27D96AE61B6BF91400E78CFC /* ExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AE51B6BF91400E78CFC /* ExampleVC.swift */; };
+		27D96AE81B6BFA4600E78CFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AE71B6BFA4600E78CFC /* Constants.swift */; };
+		91D9FD0FAD8B9F7716B0BD2E /* Pods_ThunderCats_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4EE6D4DC446177E3E5431D /* Pods_ThunderCats_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +35,21 @@
 		27D96AB91B6BF3BD00E78CFC /* ThunderCats Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThunderCats Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D96ABD1B6BF3BD00E78CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D96ABE1B6BF3BD00E78CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27D96AC01B6BF3BD00E78CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27D96AC01B6BF3BD00E78CFC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		27D96AC31B6BF3BD00E78CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27D96AC51B6BF3BD00E78CFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27D96AC81B6BF3BD00E78CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27D96ACE1B6BF3BD00E78CFC /* ThunderCats ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThunderCats ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D96AD31B6BF3BD00E78CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D96AD41B6BF3BD00E78CFC /* ThunderCats_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderCats_ExampleTests.swift; sourceTree = "<group>"; };
+		27D96ADF1B6BF85000E78CFC /* StringsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringsDataSource.swift; sourceTree = "<group>"; };
+		27D96AE11B6BF87A00E78CFC /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		27D96AE31B6BF8BB00E78CFC /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		27D96AE51B6BF91400E78CFC /* ExampleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleVC.swift; sourceTree = "<group>"; };
+		27D96AE71B6BFA4600E78CFC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4190C879893F99D90E57AB43 /* Pods-ThunderCats Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThunderCats Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThunderCats Example/Pods-ThunderCats Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5229340820042522736EEE8F /* Pods-ThunderCats Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThunderCats Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThunderCats Example/Pods-ThunderCats Example.release.xcconfig"; sourceTree = "<group>"; };
-		E125ED2D85B3F2255EF5C710 /* libPods-ThunderCats Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThunderCats Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4EE6D4DC446177E3E5431D /* Pods_ThunderCats_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThunderCats_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61966011DCA9CCDDAFEEA782 /* libPods-ThunderCats Example.a in Frameworks */,
+				91D9FD0FAD8B9F7716B0BD2E /* Pods_ThunderCats_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +95,12 @@
 			isa = PBXGroup;
 			children = (
 				27D96ABE1B6BF3BD00E78CFC /* AppDelegate.swift */,
-				27D96AC01B6BF3BD00E78CFC /* ViewController.swift */,
+				27D96AE71B6BFA4600E78CFC /* Constants.swift */,
+				27D96AC01B6BF3BD00E78CFC /* MainVC.swift */,
+				27D96AE51B6BF91400E78CFC /* ExampleVC.swift */,
+				27D96AE11B6BF87A00E78CFC /* Example.swift */,
+				27D96AE31B6BF8BB00E78CFC /* ExampleCell.swift */,
+				27D96ADF1B6BF85000E78CFC /* StringsDataSource.swift */,
 				27D96AC21B6BF3BD00E78CFC /* Main.storyboard */,
 				27D96AC51B6BF3BD00E78CFC /* Images.xcassets */,
 				27D96AC71B6BF3BD00E78CFC /* LaunchScreen.xib */,
@@ -122,7 +137,7 @@
 		979DB2DA7D75F3E5541B6FA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E125ED2D85B3F2255EF5C710 /* libPods-ThunderCats Example.a */,
+				5A4EE6D4DC446177E3E5431D /* Pods_ThunderCats_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +163,7 @@
 				27D96AB61B6BF3BD00E78CFC /* Frameworks */,
 				27D96AB71B6BF3BD00E78CFC /* Resources */,
 				B55103DE5FCF67CC5159DFDB /* Copy Pods Resources */,
+				05AA5376A51C085F4D11C48A /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +198,7 @@
 		27D96AB11B6BF3BD00E78CFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Metova;
 				TargetAttributes = {
@@ -234,6 +251,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		05AA5376A51C085F4D11C48A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThunderCats Example/Pods-ThunderCats Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		375D31A57B8941C58565C11D /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,8 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D96AC11B6BF3BD00E78CFC /* ViewController.swift in Sources */,
+				27D96AE41B6BF8BB00E78CFC /* ExampleCell.swift in Sources */,
+				27D96AE21B6BF87A00E78CFC /* Example.swift in Sources */,
+				27D96AC11B6BF3BD00E78CFC /* MainVC.swift in Sources */,
+				27D96AE61B6BF91400E78CFC /* ExampleVC.swift in Sources */,
+				27D96AE81B6BFA4600E78CFC /* Constants.swift in Sources */,
 				27D96ABF1B6BF3BD00E78CFC /* AppDelegate.swift in Sources */,
+				27D96AE01B6BF85000E78CFC /* StringsDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
