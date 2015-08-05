@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C4CA811B72A3B100999047 /* UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C4CA801B72A3B100999047 /* UICollectionViewDataSource.swift */; };
 		27D96ABF1B6BF3BD00E78CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96ABE1B6BF3BD00E78CFC /* AppDelegate.swift */; };
 		27D96AC11B6BF3BD00E78CFC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D96AC01B6BF3BD00E78CFC /* MainVC.swift */; };
 		27D96AC41B6BF3BD00E78CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D96AC21B6BF3BD00E78CFC /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27C4CA801B72A3B100999047 /* UICollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewDataSource.swift; sourceTree = "<group>"; };
 		27D96AB91B6BF3BD00E78CFC /* ThunderCats Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThunderCats Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D96ABD1B6BF3BD00E78CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27D96ABE1B6BF3BD00E78CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			children = (
 				27D96ADF1B6BF85000E78CFC /* StringsDataSource.swift */,
 				27D96AED1B6C053800E78CFC /* UIColorDataSource.swift */,
+				27C4CA801B72A3B100999047 /* UICollectionViewDataSource.swift */,
 			);
 			name = Examples;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				27D96AE41B6BF8BB00E78CFC /* ExampleCell.swift in Sources */,
 				27D96AE21B6BF87A00E78CFC /* Example.swift in Sources */,
 				27D96AEE1B6C053800E78CFC /* UIColorDataSource.swift in Sources */,
+				27C4CA811B72A3B100999047 /* UICollectionViewDataSource.swift in Sources */,
 				27D96AC11B6BF3BD00E78CFC /* MainVC.swift in Sources */,
 				27D96AE61B6BF91400E78CFC /* ExampleVC.swift in Sources */,
 				27D96AE81B6BFA4600E78CFC /* Constants.swift in Sources */,

@@ -28,12 +28,13 @@ class MainVC: UITableViewController {
 
 
     // an array of each example
-    let examples = ["Strings", "UIColor"]
+    let examples = ["Strings", "UIColor", "UICollectionViewCell"]
     
     // an array of the corresponding data source
     let dataSources: [UITableViewDataSource] = [
         StringsDataSource(),
-        UIColorDataSource()
+        UIColorDataSource(),
+        UICollectionViewDataSource()
     ]
     
     override func viewWillAppear(animated: Bool) {

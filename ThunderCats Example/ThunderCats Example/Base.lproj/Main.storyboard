@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="572" y="477"/>
         </scene>
-        <!--Examples-->
+        <!--Categories-->
         <scene sceneID="6D5-vr-1j0">
             <objects>
                 <tableViewController id="2yt-YM-b82" customClass="MainVC" customModule="ThunderCats_Example" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                             <outlet property="delegate" destination="2yt-YM-b82" id="cYm-tN-t3e"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Examples" id="CnO-w1-hnE"/>
+                    <navigationItem key="navigationItem" title="Categories" id="CnO-w1-hnE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4gP-bv-En0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
