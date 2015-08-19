@@ -129,5 +129,19 @@
     return nil;
 }
 
+- (void)tc_autoLayoutPinToParentViewController {
+    NSDictionary *views = NSDictionaryOfVariableBindings(self);
+    
+    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[self]|"
+                                                                           options:0
+                                                                           metrics:nil
+                                                                             views:views];
+    NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[self]|"
+                                                                             options:0
+                                                                             metrics:nil
+                                                                               views:views];
+    [self.superview addConstraints:verticalConstraints];
+    [self.superview addConstraints:horizontalConstraints];
+}
 
 @end

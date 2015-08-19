@@ -69,4 +69,11 @@ typedef NS_ENUM(NSUInteger, TCSearchStrategy) {
 - (UIView * __tc_nullable)tc_findSubviewUsingSearchStrategy:(TCSearchStrategy)searchStrategy
                                          thatSatisfiesBlock:(BOOL (^ __tc_nonnull)(UIView * __tc_nonnull view))conditionBlock;
 
+/**
+ *  Pins all four edges of the receiver view to its parent view.
+ *
+ *  @warning Throws an exception if the received is not a subview of any views.
+ */
+- (void)tc_autoLayoutPinToParentViewController;
+
 @end
